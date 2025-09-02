@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Revenue Recovery Audit - MedPharma SC</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+    theme: {
+        extend: {
+            colors: {
+                'teal': { 50:'#f0fdfa',500:'#14b8a6',600:'#0d9488',700:'#0f766e' }
+            }
+        }
+    }
+}
+</script>
+<style>
+.hero-bg {
+    background: linear-gradient(135deg, rgba(20,184,166,0.9), rgba(59,130,246,0.8)), 
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23f8fafc" width="1200" height="600"/><g opacity="0.1"><circle cx="200" cy="150" r="80" fill="%23059669"/><circle cx="800" cy="300" r="120" fill="%232563eb"/><circle cx="1000" cy="100" r="60" fill="%23059669"/></g></svg>');
+    background-size: cover;
+    background-position: center;
+}
+</style>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+<!-- Header -->
+<header class="bg-white shadow-sm sticky top-0 z-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+    <div class="flex items-center space-x-3">
+        <div class="w-12 h-12 bg-teal-600 rounded-lg flex items-center justify-center">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+        </div>
+        <div>
+            <h1 class="text-xl font-bold text-gray-900">MedPharma SC</h1>
+            <p class="text-sm text-gray-600">Revenue Recovery Specialists</p>
+        </div>
+    </div>
+    <button onclick="scrollToForm()" class="bg-teal-600 hover:bg-teal-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors">
+        Get My Free Audit
+    </button>
+</div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-bg text-white py-20 text-center">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="text-5xl md:text-6xl font-bold mb-6">Free Revenue Recovery Audit</h1>
+    <p class="text-xl md:text-2xl mb-8 max-w-4xl mx-auto leading-relaxed">
+        Healthcare providers lose an estimated 5–15% of their revenue each year—sometimes millions—due to coding errors, denied claims, and underpayments. Our Revenue Recovery Audit helps you uncover and reclaim what's rightfully yours.
+    </p>
+    <button onclick="scrollToForm()" class="bg-white text-teal-700 hover:bg-gray-100 px-8 py-4 rounded-xl text-xl font-bold transition-colors shadow-lg">
+        Get My Free Audit
+    </button>
+    <p class="mt-6 text-lg opacity-90">Don't leave money on the table — discover lost revenue opportunities with our HIPAA-compliant audit.</p>
+</div>
+</section>
+
+<!-- Benefits Section -->
+<section class="py-20 bg-gray-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-4xl font-bold text-center mb-16 text-gray-900">What We Review</h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Benefit 1 -->
+<div class="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+<div class="w-16 h-16 bg-teal-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<svg class="w-8 h-8 text-teal-600" fill="currentColor" viewBox="0 0 24 24">
+<path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+</svg>
+</div>
+<h3 class="text-xl font-bold mb-3 text-gray-900">Claims Review</h3>
+<p class="text-gray-600">Comprehensive analysis of submitted claims to identify processing errors and missed opportunities.</p>
+</div>
+<!-- Benefit 2 -->
+<div class="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+<div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
+<polyline points="14,2 14,8 20,8"/>
+<line x1="16" y1="13" x2="8" y2="13"/>
+<line x1="16" y1="17" x2="8" y2="17"/>
+<polyline points="10,9 9,9 8,9"/>
+</svg>
+</div>
+<h3 class="text-xl font-bold mb-3 text-gray-900">Coding Analysis</h3>
+<p class="text-gray-600">Expert review of medical coding accuracy to ensure maximum reimbursement potential.</p>
+</div>
+<!-- Benefit 3 -->
+<div class="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+<div class="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/>
+<polyline points="14,2 14,8 20,8"/>
+<path d="M12 18v-6l-3 3"/>
+<path d="M12 12l3 3"/>
+</svg>
+</div>
+<h3 class="text-xl font-bold mb-3 text-gray-900">Denial Recovery</h3>
+<p class="text-gray-600">Strategic approach to recovering denied claims and preventing future rejections.</p>
+</div>
+<!-- Benefit 4 -->
+<div class="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+<div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+<svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+<path d="M20 6L9 17l-5-5"/>
+</svg>
+</div>
+<h3 class="text-xl font-bold mb-3 text-gray-900">Contract Compliance</h3>
+<p class="text-gray-600">Verification that payer contracts are being honored and payments are accurate.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- How It Works Section -->
+<section class="py-20 bg-white">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-4xl font-bold text-center mb-16 text-gray-900">How It Works</h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="text-center">
+<div class="w-20 h-20 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">1</div>
+<h3 class="text-xl font-bold mb-3 text-gray-900">Submit Details</h3>
+<p class="text-gray-600">Provide your practice information through our secure form below.</p>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">2</div>
+<h3 class="text-xl font-bold mb-3 text-gray-900">Secure Upload</h3>
+<p class="text-gray-600">Upload de-identified claims data through our HIPAA-compliant portal.</p>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-6 text-white text-2xl font-bold">3</div>
+<h3 class="text-xl font-bold mb-3 text-gray-900">Expert Review</h3>
+<p class="text-gray-600">Our specialists analyze your claims and deliver a comprehensive audit report.</p>
+</div>
+<div class="text-center">
+<div class="w-20 h-20 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-6
